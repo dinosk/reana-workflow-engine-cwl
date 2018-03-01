@@ -69,7 +69,7 @@ setup_requires = [
 ]
 
 install_requires = [
-    "cwltool",
+    "cwltool>=1.0.20180225105849",
     "celery",
     "zmq",
 ]
