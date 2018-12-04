@@ -30,6 +30,7 @@ class ReanaJobControllerHTTPClient:
             'cmd': cmd,
             'max_restart_count': 0,
             'env_vars': {},
+            'cvmfs_mounts': ['cms'],
             'workflow_workspace': workflow_workspace,
             'prettified_cmd': prettified_cmd,
             'job_name': job_name
